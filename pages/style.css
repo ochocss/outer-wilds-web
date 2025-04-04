@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "Serif Gothic";
+    src: url(../assets/fonts/itc-serif-gothic-regular-588cef4e7134b.otf);
+}
+
+@font-face {
+    font-family: "Serif Gothic Extra Bold";
+    src: url(../assets/fonts/itc-serif-gothic-extra-bold-588cef7e1f5d9.otf);
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: "Serif Gothic";
     background-color: #000000;
     color: #fff;
     text-align: center;
@@ -13,7 +23,8 @@ header {
 }
 
 h1 {
-    font-size: 48px;
+    font-family: "Serif Gothic Extra Bold";
+    font-size: 64px;
     margin: 0;
 }
 
@@ -25,28 +36,30 @@ h1 {
 }
 
 .texts summary {
-    color: rgb(253, 83, 83);
-    font-size: 1.1em;
+    color: rgb(255, 111, 111);
+    font-size: 2.5em;
 }
 
 .texts h2 {
-    font-size: 28px;
+    font-size: 2.0em;
     color: #FFA500;
 }
 
 .texts img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
 }
 
 .texts p {
-    font-size: 1.1em;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 .texts li {
     line-height: 1.5;
-    font-size: 18px;
+    text-align: justify;
+    font-size: 1.3em;
 }
 
 a {
@@ -60,4 +73,5 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+    font-size: 1.3em;
 }
