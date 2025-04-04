@@ -24,6 +24,11 @@ h1 {
     border-radius: 8px;
 }
 
+.texts summary {
+    color: rgb(253, 83, 83);
+    font-size: 1.1em;
+}
+
 .texts h2 {
     font-size: 28px;
     color: #FFA500;
