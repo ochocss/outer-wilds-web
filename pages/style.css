@@ -10,7 +10,7 @@
 
 body {
     font-family: "Serif Gothic";
-    background-color: #000000;
+    background-color: #040018;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -18,30 +18,83 @@ body {
 }
 
 header {
-    background-color: #0f0f0f;
+    background-color: #0a0824;
     padding: 20px;
 }
 
 h1 {
     font-family: "Serif Gothic Extra Bold";
-    font-size: 64px;
+    font-size: 4.0em;
     margin: 0;
+}
+
+audio {
+    min-width: 300px;
+    width: 30%;
+}
+
+audio::-webkit-media-controls-mute-button {
+    background-color: #e78426;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #e78426;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(69, 76, 170, 0.7);
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #002950;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #002950;
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: #e78426;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #072e52;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #e78426;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .texts {
     padding: 20px;
     margin: 30px;
-    background-color: #252525;
+    background-color: #04012b;
     border-radius: 8px;
 }
 
 .texts summary {
     color: rgb(255, 111, 111);
-    font-size: 2.5em;
+    font-size: 1.8em;
 }
 
 .texts h2 {
-    font-size: 2.0em;
+    font-size: 2.2em;
     color: #FFA500;
 }
 
@@ -53,13 +106,13 @@ h1 {
 
 .texts p {
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .texts li {
     line-height: 1.5;
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 a {
@@ -68,7 +121,7 @@ a {
 }
 
 footer {
-    background-color: #0f0f0f;
+    background-color: #04001d;
     padding: 10px;
     position: relative;
     width: 100%;
