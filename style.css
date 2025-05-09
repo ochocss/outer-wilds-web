@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Serif Gothic";
-    src: url(../assets/fonts/itc-serif-gothic-regular-588cef4e7134b.otf);
+    src: url(assets/fonts/itc-serif-gothic-regular-588cef4e7134b.otf);
 }
 
 @font-face {
     font-family: "Serif Gothic Extra Bold";
-    src: url(../assets/fonts/itc-serif-gothic-extra-bold-588cef7e1f5d9.otf);
+    src: url(assets/fonts/itc-serif-gothic-extra-bold-588cef7e1f5d9.otf);
 }
 
 body {
