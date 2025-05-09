@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #0a0824;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 h1 {
@@ -29,8 +29,7 @@ h1 {
 }
 
 audio {
-    min-width: 300px;
-    width: 30%;
+    width: 60%;
 }
 
 audio::-webkit-media-controls-mute-button {
@@ -65,9 +64,9 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-timeline {
     background-color: #e78426;
-    border-radius: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 1.3rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 
 audio::-webkit-media-controls-panel {
@@ -76,16 +75,16 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-volume-slider {
     background-color: #e78426;
-    border-radius: 25px;
-    padding-left: 8px;
-    padding-right: 8px;
+    border-radius: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .texts {
-    padding: 20px;
-    margin: 30px;
+    padding: 1.5rem;
+    margin: 2rem;
     background-color: #04012b;
-    border-radius: 8px;
+    border-radius: 1.5rem;
 }
 
 .texts summary {
@@ -101,7 +100,7 @@ audio::-webkit-media-controls-volume-slider {
 .texts img {
     max-width: 80%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 1.5rem;
 }
 
 .texts p {
@@ -117,7 +116,8 @@ audio::-webkit-media-controls-volume-slider {
 
 a {
     color: rgb(159, 168, 218);
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 footer {
