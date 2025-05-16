@@ -29,56 +29,53 @@ h1 {
 }
 
 audio {
-    width: 70%;
-    max-width: 750px;
-}
+    width: 100%;
+    max-width: 700px;
+    
+    &::-webkit-media-controls-panel { /* fundo */
+        background-color: #002950;
+    }
 
-audio::-webkit-media-controls-mute-button {
-    background-color: #e78426;
-    border-radius: 50%;
-}
-
-audio::-webkit-media-controls-play-button {
-    background-color: #e78426;
-    border-radius: 50%;
-}
-
-audio::-webkit-media-controls-play-button:hover {
-    background-color: rgba(69, 76, 170, 0.7);
-}
-
-audio::-webkit-media-controls-current-time-display {
-    color: #fff;
-}
-
-audio::-webkit-media-controls-panel {
-    background-color: #002950;
-}
-
-audio::-webkit-media-controls-time-remaining-display {
-    color: #fff;
-}
-
-audio::-webkit-media-controls-panel {
-    background-color: #002950;
-}
-
-audio::-webkit-media-controls-timeline {
-    background-color: #e78426;
-    border-radius: 1.3rem;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-}
-
-audio::-webkit-media-controls-panel {
-    background-color: #072e52;
-}
-
-audio::-webkit-media-controls-volume-slider {
-    background-color: #e78426;
-    border-radius: 1.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    &::-webkit-media-controls-play-button { /* botao de play */
+        background-color: #e68830;
+        border-radius: 50%;
+    }
+    
+    &::-webkit-media-controls-play-button:hover { /* hover do botao de play */
+        background-color: #a55e1c;
+    }
+    
+    &::-webkit-media-controls-current-time-display { /* tempo faltando */
+        color: #fff;
+    }
+    
+    &::-webkit-media-controls-time-remaining-display { /* tempo restante */
+        color: #fff;
+    }
+    
+    &::-webkit-media-controls-timeline { /* linhazinha de progresso */
+        background-color: #e68830;
+        border-radius: 1.3rem;
+        margin-left: 0.6rem;
+        margin-right: 0.4rem;
+        width: 50%;
+    }
+    
+    &::-webkit-media-controls-mute-button { /* botao mutar */
+        background-color: #e68830;
+        border-radius: 50%;
+    }
+    
+    &::-webkit-media-controls-mute-button:hover { /* botao mutar hover */
+        background-color: #a55e1c;
+    }
+    
+    &::-webkit-media-controls-volume-slider { /* volume, aparece qnd da hover no mutar */
+        background-color: #e68830;
+        border-radius: 1.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 }
 
 .texts {
