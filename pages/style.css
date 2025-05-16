@@ -19,12 +19,12 @@ body {
 
 header {
     background-color: #0a0824;
-    padding: 1.0rem;
+    padding: 1.5rem;
 }
 
 h1 {
     font-family: "Serif Gothic Extra Bold";
-    font-size: 4.0em;
+    font-size: 5.0em;
     margin: 0;
 }
 
@@ -79,8 +79,8 @@ audio {
 }
 
 .texts {
-    padding: 1.0rem;
-    margin: 1.5rem;
+    padding: 1.5rem;
+    margin: 2.0rem;
     background-color: #04012b;
     border-radius: 1.5rem;
 }
@@ -91,7 +91,7 @@ audio {
 }
 
 .texts h2 {
-    font-size: 2.2em;
+    font-size: 3.0rem;
     color: #FFA500;
 }
 
