@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #0a0824;
-    padding: 1.5rem;
+    padding: 1.0rem;
 }
 
 h1 {
@@ -79,8 +79,8 @@ audio {
 }
 
 .texts {
-    padding: 1.5rem;
-    margin: 2rem;
+    padding: 1.0rem;
+    margin: 1.5rem;
     background-color: #04012b;
     border-radius: 1.5rem;
 }
